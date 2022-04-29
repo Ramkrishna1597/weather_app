@@ -1,0 +1,109 @@
+*{
+    padding:0;
+    margin:0;
+    text-align: center;
+  
+
+}
+
+body{
+    background-image: url(https://media.newyorker.com/photos/5d0aa326e140834842c67f62/master/pass/190701_r34545.jpg);
+    background-size: cover;
+}
+
+h1{
+    color:red;
+    font-size: 43px;
+    margin-left: -8%;
+}
+#big{
+    /* background: url(https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat center center fixed; */
+    background-size:cover;
+    width:100%;
+    height:608.5px;
+    /* background: transparent; */
+    /* opacity: 0.6; */
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOBV7Sxn5Dv6rP5l6qgeVAwrUnDnQnn-xbuA&usqp=CAU); */
+
+}
+#container{
+    color:silver;
+    font-size: larger;
+    font-weight: 900;
+    width:57%;
+    margin-left: 0.2%;
+    color:black;
+    height:44%;
+    border-radius: 10px;
+   text-align: left;
+ 
+  
+}
+#container>div{
+    margin-top: -13%;
+    margin-left: 3%;
+   
+}
+.gmap_canvas{
+    margin-left:57%;
+    margin-top: -21%;
+    
+ 
+}
+
+#search{
+    margin-left: -40%;
+    background-color: rgb(12,38,64);
+    padding:2%;
+    Color:Violet;
+    font-size: 2rem;
+    font-weight: 900;
+   
+    
+}
+#city{
+    width:15%;
+    padding:5px;
+    margin-left: 25%;
+}
+button{
+    width:10%;
+    padding:7px;
+    border:0;
+    border-radius:5px;
+    background-color: rgb(178, 132, 224);
+    margin-right: 30%;
+}
+
+#forecast {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+}
+#forecast > div {
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(118, 194, 238);
+    border-radius: 5px;
+    ;
+}
+#forecast > div > div > img {
+    margin: -5px;
+}
+.grid_div {
+    display: flex;
+    justify-content: space-around;
+}
+.date {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+#fore_days{
+margin-top:-19%;
+color:rgb(18, 15, 22);
+font-size: 2rem;
+text-align: left;
+}
